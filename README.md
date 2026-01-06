@@ -1,12 +1,3 @@
-Here is a comprehensive GitHub README designed for your project. It includes the theoretical background you wrote, adapted to match the actual code (which is for movies), along with a detailed setup guide and a step-by-step explanation of the logic.
-
----
-
-## Part 1: The `README.md` File
-
-You can copy and paste the content below directly into a file named `README.md` in your GitHub repository.
-
-```markdown
 # Content-Based Movie Recommendation System
 
 A machine learning project that suggests movies to users based on content similarity. This system analyzes movie metadata (genres, cast, director, keywords) to find and recommend movies similar to a user's favorite.
