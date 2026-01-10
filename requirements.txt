@@ -2,11 +2,9 @@ nltk
 wordcloud
 numpy
 pandas
-sklearn
+scikit-learn
 matplotlib
 PyYAML
-streamlitp
-pyyaml
 six
-
+streamlit
 -e .

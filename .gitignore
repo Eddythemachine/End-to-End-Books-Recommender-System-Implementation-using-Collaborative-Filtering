@@ -14,6 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
+artifacts/dataset/ingested_data/BX-Books.csv
 lib/
 lib64/
 parts/
