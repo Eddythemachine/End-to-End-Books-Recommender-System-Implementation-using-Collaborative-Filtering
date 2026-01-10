@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 import numpy as np
 import pandas as pd
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 
 # Try to import your custom modules with error handling
 try:
