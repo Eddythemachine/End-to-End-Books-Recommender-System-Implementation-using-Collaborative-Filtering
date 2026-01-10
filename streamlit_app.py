@@ -19,16 +19,16 @@ class Recommendation:
             raise AppException(e, sys) from e
 
     @st.cache_resource
-    def load_book_pivot(self):
-        return pickle.load(open(self.recommendation_config.book_pivot_serialized_objects,'rb'))
+    def load_book_pivot(_self):
+        return pickle.load(open(_self.recommendation_config.book_pivot_serialized_objects,'rb'))
 
     @st.cache_resource
-    def load_final_rating(self):
-        return pickle.load(open(self.recommendation_config.final_rating_serialized_objects,'rb'))
+    def load_final_rating(_self):
+        return pickle.load(open(_self.recommendation_config.final_rating_serialized_objects,'rb'))
 
     @st.cache_resource
-    def load_model(self):
-        return pickle.load(open(self.recommendation_config.trained_model_path,'rb'))
+    def load_model(_self):
+        return pickle.load(open(_self.recommendation_config.trained_model_path,'rb'))
 
     def fetch_posters(self, suggestion):
         try:
