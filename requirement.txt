@@ -6,4 +6,7 @@ sklearn
 matplotlib
 PyYAML
 streamlitp
+pyyaml
+six
+
 -e .
