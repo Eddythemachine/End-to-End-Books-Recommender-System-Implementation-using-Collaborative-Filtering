@@ -95,7 +95,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("📚 End-to-End Books Recommender System")
-st.write("This app uses collaborative filtering to recommend books based on your selection!")
+st.write("This app uses collaborative filtering to recommend books based on your selection! Train system first")
 
 # Initialize Recommendation engine
 obj = Recommendation()
